@@ -1,3 +1,24 @@
+# Review App Description
+
+The Review App is a React.js application designed to collect and manage user reviews. It includes three main components:
+
+- **Rating**: Allows users to provide a rating.
+- **TextArea**: A text input for submitting reviews.
+- **List**: Displays submitted reviews with an option to delete them.
+
+## State Management
+
+- Utilizes `useState` to manage the list of reviews (`todo`).
+- Functions like `submitHandler` add new reviews, while `deleteHandler` removes them.
+
+## Props Usage
+
+- `TextArea` receives `submitHandler` to send user input to the parent component.
+- `List` receives `dummydata` and `deleteHandler` to display and manage reviews.
+
+The app demonstrates basic state management, prop usage, and component interaction in React, with customizable styling via `App.css`.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
